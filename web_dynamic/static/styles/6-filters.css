@@ -38,8 +38,12 @@ button:hover {
 .filters h4 {
     margin-left: 15%;
     margin-top: 0;
+    height: 20px;
     font-weight: 400;
     font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .locations {
     height: 100%;
@@ -78,6 +82,11 @@ button:hover {
     margin: 0px;
 }
 
+.amenities ul li input,
+.locations ul li input {
+    margin-right: 10px;
+}
+
 .locations .popover {
     margin-top: 0%;
 }
@@ -89,6 +98,10 @@ button:hover {
 .popover ul li{
     padding: 4px;
     padding-left: 10px;
+}
+
+.locations h2{
+    display: inline-block;
 }
 
 .popover ul h2{
